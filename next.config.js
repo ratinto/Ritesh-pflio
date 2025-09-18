@@ -1,7 +1,17 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: { unoptimized: true },
-  output: 'export'
+  images: {
+    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**',
+      },
+    ],
+  },
+  output: 'export',
+  trailingSlash: true,
+  assetPrefix: '.',
 };
- 
+
 module.exports = nextConfig;
