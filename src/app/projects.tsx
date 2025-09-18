@@ -6,28 +6,28 @@ import { getImagePrefix } from "../../utils/utils";
 
 const PROJECTS = [
   {
-    img: `${getImagePrefix()}image/blog-1.svg`,
+    img: "/image/blog-1.svg",
     title: "WAR - Digital Laundry Management",
     desc: "Full-stack application built with React.js, Django, and PostgreSQL. Features real-time order tracking, and admin dashboard.",
     githubUrl: "https://github.com/ratinto/war-frontend",
     liveUrl: "https://war-frontend.vercel.app/"
   },
   {
-    img: `${getImagePrefix()}image/blog4.svg`,
+    img: "/image/blog4.svg",
     title: "Vastraa (E-commerce Platform)",
     desc: "Created a scalable e-commerce platform using React.js, Django and PostgreSQL with features like payment integration and inventory management.",
     githubUrl: "https://github.com/ratinto/Vastraa",
     liveUrl: "https://vastraa-sable.vercel.app/"
   },
   {
-    img: `${getImagePrefix()}image/blog3.svg`,
+    img: "/image/blog3.svg",
     title: "RAC Gaming Platform",
     desc: "Created a gaming website optimized for responsiveness and performance. Features include project gallery with hover effects, team and contact sections, and full mobile responsiveness.",
     githubUrl: "https://github.com/ratinto/rac_gaming",
     liveUrl: "https://rac-gaming.vercel.app/"
   },
   {
-    img: `${getImagePrefix()}image/blog4.svg`,
+    img: "/image/blog4.svg",
     title: "Inventory Management System",
     desc: "Developed a real-time inventory tracking system using React.js and Firebase. Includes barcode scanning and automated stock alerts.",
     githubUrl: "https://github.com/ratinto/rac_gaming",
