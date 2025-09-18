@@ -79,7 +79,7 @@ function Hero() {
           width={1024}
           height={1024}
           alt="team work"
-          src={`${getImagePrefix()}image/Ritesh.jpg`}
+          src={`/image/Ritesh.jpg`}
           className="h-[36rem] w-[28rem] rounded-xl object-cover"
         />
       </div>
