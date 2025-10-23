@@ -3,7 +3,7 @@
 
 A modern, responsive portfolio website built with Next.js 13, TypeScript, and Tailwind CSS. This portfolio showcases my skills, projects, experience, and provides a platform for potential collaborators and employers to learn more about my work.
 
-![Portfolio Preview](./public/image/preview.png)
+![Portfolio Preview](./public/image/Ritesh.png)
 
 ## ✨ Features
 
