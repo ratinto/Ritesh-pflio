@@ -16,6 +16,7 @@ A modern, responsive portfolio website built with Next.js 13, TypeScript, and Ta
 - **Accessible**: WCAG compliant with proper semantic HTML
 - **Contact Form**: Functional contact form for inquiries
 - **Project Showcase**: Interactive project cards with live demos and source code links
+- **🌗 Dark Mode Support**: Easily toggle dark/light mode via the floating theme switch button
 
 ## 🛠️ Tech Stack
 
@@ -205,6 +206,14 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - [Vercel](https://vercel.com/) for hosting and deployment
 
 ---
+
+## 🌗 How to use Dark/Light Mode
+Click the floating button at the bottom-right of the page to toggle between dark and light themes. Your preference will be saved automatically!
+
+---
+
+### 🎉 Hacktoberfest Friendly
+This project welcomes contributions and is a great place for beginners to start—especially during Hacktoberfest! Feel free to open Pull Requests with improvements.
 
 ⭐ **Star this repository if you found it helpful!**
 
