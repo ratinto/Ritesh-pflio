@@ -16,7 +16,7 @@ export function Footer() {
               Always eager to take on new challenges and create innovative solutions.
             </Typography>
             <Typography className="font-normal !text-gray-700">
-              Email: 7976ritesh@gmail.com
+              Email: <a href="mailto:7976ritesh@gmail.com" aria-label="Send email to 7976ritesh@gmail.com" className="underline">7976ritesh@gmail.com</a>
             </Typography>
           </div>
           
@@ -26,9 +26,10 @@ export function Footer() {
             </Typography>
             <div className="flex gap-4">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/ratinto"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Ritesh's GitHub profile"
                 className="text-gray-700 hover:text-gray-900 transition-colors"
               >
                 <i className="fab fa-github text-2xl"></i>
@@ -37,6 +38,7 @@ export function Footer() {
                 href="https://www.linkedin.com/in/ritesh-kumar-sde/"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Ritesh's LinkedIn profile"
                 className="text-gray-700 hover:text-gray-900 transition-colors"
               >
                 <i className="fab fa-linkedin text-2xl"></i>
