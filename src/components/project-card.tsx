@@ -46,6 +46,7 @@ export function ProjectCard({ img, title, desc, githubUrl, liveUrl }: ProjectCar
               target="_blank"
               rel="noopener noreferrer"
               className="transition-transform hover:scale-110"
+              aria-label={`View source for ${title} on GitHub`}
             >
               <Button 
                 color="gray" 
@@ -63,6 +64,7 @@ export function ProjectCard({ img, title, desc, githubUrl, liveUrl }: ProjectCar
               target="_blank"
               rel="noopener noreferrer"
               className="transition-transform hover:scale-110"
+              aria-label={`Visit live demo for ${title}`}
             >
               <Button 
                 color="gray" 
